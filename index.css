@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+
+}
+
+img{
+
+   display: block;
+   margin-top: 10px;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px yellowgreen;
+    font-family: "Audiowide", sans-serif;
+    font-size: 40px;
+    color: #ebee00;
+    margin: 10px;
+}
