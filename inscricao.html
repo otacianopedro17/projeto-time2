@@ -3,9 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
     <title>Formulário</title>
+
+    <style>
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: white;
+            font-family: Cambria, Arial;
+        }
+
+        section{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60vh;
+        }
+
+        form{
+
+            
+            width: 50%;
+            padding: 10%;
+            
+        }
+
+        input{
+            
+
+            text-align: center;
+            width: 90%;
+            
+            
+        }
+
+        textarea{
+
+            width: 60%;
+            height: 40%;
+        }
+
+
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>INSCREVA-SE</h1>
+    </header>
+            <section>
+                <form>
+                        <label>NOME</label>
+                        <input type="text" placeholder="DIGITE SEU NOME COMPLETO" name="nome" required>
+                        <label>TELEFONE</label>
+                        <input type="number" placeholder="DIGITE SEU NÚMERO" name="telefone" required>
+                        <label>DATA DE NASCIMENTO</label>
+                        <input type="date" placeholder="DIGITE SUA DATA DE NASCIMENTO" name="data de nascimento" required>
+                        <label>EMAIL</label>
+                        <input type="email" placeholder="DIGITE SEU EMAIL" name="email" required>
+                        <label>ENDEREÇO</label>
+                        <input type="text" placeholder="DIGITE SEU ENDEREÇO" name="endereço" required>
+                        <label id="mudar">FALE CONOSCO</label>
+                        <textarea name="mensagem" placeholder="ESCREVA PARA NOS"></textarea>
+                        <button>ENVIAR</button>
+                </form>
+
+            </section>
+    <footer>
+        <p>@COPYRIGHT</p>
+    </footer>
 </body>
 </html>

@@ -9,13 +9,15 @@ h1{
     font-family: "Stencil";
     font-size: 40px;
     color: #c1ff72;
-    margin: 10px;
+    padding: 15px;
 }
 
 h2{
     color: white;
     font-size: 30px;
-    padding: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 30px;
 }
 
 nav ul{
@@ -23,7 +25,7 @@ nav ul{
     display: flex;
     justify-content: space-between;
     padding: 0px 20px;
-    margin: 5px;
+    margin: 10px;
 }
 
 nav li{
@@ -36,11 +38,14 @@ li{
     
 }
 
-img{
+.not{
 
-    width: 1920px;
+    display: flex;
+    width: 1600px;
     height: 500px;
     padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a{
@@ -73,3 +78,38 @@ footer p{
         padding-bottom: 10px;
 }
 
+main p{
+    color: white;
+    text-align: center;
+    margin: 60px;
+    font-style: normal;
+    font-size: 30px;
+}
+
+
+
+
+#mudar{
+
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Arial;
+
+}
+
+#net{
+    margin-top: 17%;
+}
+
+.redes{
+
+    width: 60px;
+    height: 60px;
+   
+}
+
+.nut {
+
+    text-align: center;
+    
+}
